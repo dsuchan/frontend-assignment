@@ -1,6 +1,9 @@
 import {Helmet} from 'react-helmet-async';
 import {useTranslation} from 'react-i18next';
-import {Welcome} from './pages';
+import './styles/Global.css';
+import {TodoListContextProvider} from './store/TodoListContext';
+import {Wrapper} from './components/Wrapper/Wrapper';
+import {Header} from './components/Header/Header';
 
 function App() {
   const {i18n, t} = useTranslation();
@@ -18,7 +21,10 @@ function App() {
       {/**
        * start from here
        */}
-      <Welcome />
+      <TodoListContextProvider>
+        <Header />
+        <Wrapper />
+      </TodoListContextProvider>
     </>
   );
 }

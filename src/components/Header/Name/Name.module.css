@@ -1,0 +1,7 @@
+.n-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 1.5rem 1rem;
+    width: 20%;
+}

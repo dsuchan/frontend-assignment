@@ -1,0 +1,12 @@
+.w-wrapper {
+    display: flex;
+    gap: 1rem;
+    background-color: #f4f5f7;
+    padding: 1rem 0;
+}
+
+.w-sections {
+    display: flex;
+    gap: 1rem;
+    margin: 0 1rem;
+}

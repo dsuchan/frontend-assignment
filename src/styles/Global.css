@@ -1,0 +1,13 @@
+:root {
+    --header-background-color: white;
+    --background-color: #f4f5f7;
+}
+
+html {
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+input {
+    background-color: white !important;
+}

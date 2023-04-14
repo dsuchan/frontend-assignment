@@ -1,0 +1,23 @@
+.et-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.et-author-tag {
+    display: flex;
+    gap: 8px;
+    color: #7A869A;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.et-label {
+    font-size: 12px;
+    font-weight: 400;
+    color: #42526e;
+}
+
+.et-priority {
+    width: 50%;
+}
